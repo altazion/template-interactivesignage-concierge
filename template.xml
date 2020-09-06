@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Template xmlns="https://schemas.altazion.com/sys/template.xsd">
+  <Name>{{git_repo_name}}</Name>
+  <Description></Description>
+  <Author>{{git_repo_owner}}</Author>
+  <BasedOn>Concierge</BasedOn>
+
+  <Content root=".">
+    <Shared kind="CSS">
+      <Folder path="style" />
+    </Shared>
+    <Shared kind="JS">
+      <File path="scripts/app.js"/>
+    </Shared>
+  </Content>
+</Template>
